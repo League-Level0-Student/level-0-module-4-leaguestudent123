@@ -40,15 +40,15 @@ public class SimpleCalculator {
 	}
 
 	public static void subtract(int num1, int num2) {
-		JOptionPane.showMessageDialog(null, num1 + " - " + num2 + " = " + (num1 + num2));
+		JOptionPane.showMessageDialog(null, num1 + " - " + num2 + " = " + (num1 - num2));
 	}
 
 	public static void multiply(int num1, int num2) {
-		JOptionPane.showMessageDialog(null, num1 + " * " + num2 + " = " + (num1 + num2));
+		JOptionPane.showMessageDialog(null, num1 + " * " + num2 + " = " + (num1 * num2));
 	}
 
 	public static void divide(int num1, int num2) {
-		JOptionPane.showMessageDialog(null, num1 + " / " + num2 + " = " + (num1 + num2));	
+		JOptionPane.showMessageDialog(null, num1 + " / " + num2 + " = " + (num1 / num2));	
 	}
 }
 // 4. Create similar methods for subtraction, multiplication and division.
